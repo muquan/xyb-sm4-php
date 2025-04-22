@@ -6,7 +6,7 @@
 ## 使用说明：
 ```
 use xyb\sm4\App;
-$sm4= new App($this->clientSecret);
+$sm4= new App($clientSecret);
 $encryptStr='接口返回的encryptStr';
 $plaintext = $sm4->decrypt($encryptStr);
 ```
